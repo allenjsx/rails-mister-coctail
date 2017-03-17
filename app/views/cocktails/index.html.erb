@@ -1,12 +1,12 @@
 <body class="text-center">
 
-<div class="container">
-
-<h1>Mr. & Mr. Cocktails</h1>
-
+<%= render 'shared/banner' %>
 <br>
 
+<div id="menu">
 <h2>House Cocktails</h2>
+
+<!-- </div>
 
 <% @cocktails.each do |cocktail| %>
 <h3> <%= link_to "#{cocktail.name}", cocktail_path(cocktail.id) %></h3>
@@ -14,5 +14,24 @@
 <br>
 <% end %>
 <%= link_to "Add a cocktail", new_cocktail_path, class: "btn btn-white"%>
-</div>
+</div> -->
 </body>
+
+<%= render 'shared/card' %>
+
+</body>
+
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+
+    </div>
+    <div class="col-xs-12 col-sm-4">
+
+    </div>
+    <div class="col-xs-12 col-sm-4">
+
+    </div>
+  </div>
+</div>
+ -->
