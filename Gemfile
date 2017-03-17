@@ -35,8 +35,10 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'autoprefixer-rails'
-gem 'cloudinary'
 gem 'figaro'
+gem 'cloudinary', '1.1.7'
+gem 'attachinary', github: 'assembler/attachinary'
+
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

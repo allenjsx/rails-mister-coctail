@@ -16,6 +16,9 @@
 //= require turbolinks
 //= require_tree .
 
+//= require cloudinary/jquery.cloudinary
+//= require attachinary
+
 
 $(document).ready(function(){
   $('a[href^="#"]').on('click',function (e) {
